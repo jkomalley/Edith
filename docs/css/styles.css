@@ -1,5 +1,5 @@
 /* CSS HEX */
-:root{
+/* :root{
   --gainsboro: #dcdcddff;
   --silver: #c5c3c6ff;
   --davys-grey: #46494cff;
@@ -27,14 +27,14 @@ body {
 }
 
 .box2 {
-  /* grid-column-start: 2; */
+
   grid-column: 7;
   grid-row-start: 5;
-  /* grid-row-end: 7; */
+
 }
 
 .header {
-  /* margin: auto; */
+
   font: 5vw Verdana, sans-serif;
   color: #1985a1ff;
   text-decoration: none;
@@ -56,4 +56,84 @@ button {
 
 button:hover {
   color: #c5c3c6ff;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.forehead-container {
+
+  color: #fff;
+  background-color: #46494C;  /* Blue */
+  padding-left: 30px;
+  /* margin-left: 70px 0; */
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.forehead {
+  height: 10vw;
+  /* border: 1px solid #fff; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageTitle {
+  font-size: 5vw;
+  display: flex;
+  justify-content: flex-start;
+  color: #C5C3C6;
+}
+
+.menu {
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+  /* height: 100px; */
+  align-items: center;
+  padding-left: 50px;
+}
+.menuItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.test {
+  /* border: 1px solid #fff; */
+  display: flex;
+  max-width:inherit;
+  max-height:inherit;
+  /* background: black; */
+  filter: invert(0);
+  height: 5vw;
+}
+.menuItem:hover {
+  filter: invert(.5);
+  /* background-color: #1985A1; */
+}
+
+.headerImage {
+  width: 100%;
+}
+
+.pageSection{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionTitle {
+  /* display: flex;
+  justify-content: center; */
+  margin: 5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
 }

@@ -15,23 +15,61 @@
 
   </head>
   <body>
-    <div class="header box1">
-      <h1 href="#page-top">Edith</h1>
-    </div>
-    <div class="navigation box2">
-      <button type="button" onclick="window.location.href='index.html';">Home</button><br>
-      <button type="button" onclick="window.location.href='specs.html';">Specs</button><br>
-      <button type="button" onclick="window.location.href='cableManagement.html';">Cable Management</button><br>
-      <button type="button" onclick="window.location.href='buildProcess.html';">Build Process</button><br>
-    </div>
+    <div class='forehead-container'>
+      <div class='forehead'>
+        <div class='pageTitle'>EDITH</div>
 
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+        <div class='menu'>
+          <div class='menuItem specs'>
+            <span title="CPU">
+              <a href='#specs' aria-label="Specs">
+                <img class='test' src='assets\cpu_dark.svg'/>
+              </a>
+            </span>
+          </div>
+          <div class='menuItem 360'>
+            <span title="360">
+              <a href='#360' aria-label="360">
+                <img class='test' src='assets\360.svg'/>
+              </a>
+            </span>
+          </div>
+          <div class='menuItem cableManagement'>
+            <span title="Cable Management">
+              <a href='#cableManagement' aria-label="Cable Management">
+                <img class='test' src='assets\cableManagement.svg'/>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <img class='headerImage' src='assets\edith_header.jpg'/>
+    </div>
+    <div class="pageSection Specs" id="specs">
+      <div class="sectionTitle">
+        Specs
+      </div>
+      <div class="pageSectionContent">
+        *put specs here*
+      </div>
+    </div>
+    <div class="pageSection Specs" id="360">
+      <div class="sectionTitle">
+        360
+      </div>
+      <div class="pageSectionContent">
+        *put 360 here*
+      </div>
+    </div>
+    <div class="pageSection Specs" id="cableManagement">
+      <div class="sectionTitle">
+        Cable Management
+      </div>
+      <div class="pageSectionContent">
+        *show cableManagement here*
+      </div>
+    </div>
   </body>
 </html>
