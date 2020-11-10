@@ -64,8 +64,16 @@ button:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.forehead-container {
+/* .landing {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: grey;
+} */
 
+.forehead-container {
   color: #fff;
   background-color: #46494C;  /* Blue */
   padding-left: 30px;
@@ -76,6 +84,7 @@ button:hover {
 
 .forehead {
   height: 10vw;
+  max-height: 100px;
   /* border: 1px solid #fff; */
   width: 100%;
   display: flex;
@@ -88,6 +97,8 @@ button:hover {
   display: flex;
   justify-content: flex-start;
   color: #C5C3C6;
+  align-items: center;
+
 }
 
 .menu {
@@ -102,16 +113,19 @@ button:hover {
   display: flex;
   justify-content: space-between;
   padding: 2em;
+
 }
 
 .test {
   /* border: 1px solid #fff; */
   display: flex;
+  justify-content: flex-end;
   max-width:inherit;
   max-height:inherit;
   /* background: black; */
   filter: invert(0);
   height: 5vw;
+  max-height: 40px;
 }
 .menuItem:hover {
   filter: invert(.5);
@@ -137,3 +151,17 @@ button:hover {
   font-size: 50px;
   font-weight: bold;
 }
+
+/* .Sprite{
+  background-image: url('./assets/sprite_test.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 0;
+  height: 200px;
+  width: 200px;
+  overflow:hidden;
+}
+#clip {
+  position: absolute;
+  clip: rect(0, 100px, 200px, 0);
+} */
