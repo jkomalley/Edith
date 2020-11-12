@@ -2,12 +2,13 @@
   "use strict"; // Start of use strict
   $(function() {
     $('#spritespin').spritespin({
-      source: 'assets/sprite_test.jpg',
-      width: 200,
-      height: 200,
-      frames: 10,
-      framesX: 10,
-      frameTime: 200
+      source: 'assets/rotation_sprite.jpg',
+      width: 500,
+      height: 500,
+      frames: 19,
+      framesX: 19,
+      frameTime: 100,
+      sense: -1
     });
   })
 })(jQuery); // End of use strict
