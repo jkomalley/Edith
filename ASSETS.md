@@ -5,3 +5,4 @@
 * 360 by adhitya nugroho from the Noun Project
 * Cable Management by Christopher Smith from the Noun Project
 * about by MRK from the Noun Project
+* spritespin from http://spritespin.ginie.eu/howto/
