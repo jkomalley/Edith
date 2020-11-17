@@ -29,6 +29,10 @@ h2 {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+}
+
 .forehead {
   color: #fff;
   background-color: #46494C;
