@@ -34,7 +34,7 @@
   .dividerImage2,
   .dividerImage3 {
     min-height: 300px;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
   .headerImage {
       background-image: url('../assets/images/dividerImages/dividerImage2_mobile.jpg' );
