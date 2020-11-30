@@ -1,0 +1,39 @@
+body, html {
+  height: 100%;
+  display: grid;
+}
+
+@font-face {
+    font-family: 'virgo_01regular';
+    src: url('../assets/webfonts/virgo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../assets/header.jpg");
+
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  border-width: medium;
+  border-color: #DCDCDD;
+  font-family: 'virgo_01regular';
+  color: #DCDCDD;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}

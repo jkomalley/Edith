@@ -8,7 +8,8 @@
       frames: 19,
       framesX: 19,
       frameTime: 150,
-      sense: -1
+      sense: -1,
+      responsive: true
     });
   })
 })(jQuery); // End of use strict
